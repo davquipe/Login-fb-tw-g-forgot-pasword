@@ -128,11 +128,11 @@ LOGOUT_URL = reverse_lazy('logout')
 
 # EMAIL
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'davidcq99@gmail.com'
+EMAIL_HOST_USER = 'email'
 EMAIL_HOST_PASSWORD = 'password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'davidcq99@gmail.com'
+DEFAULT_FROM_EMAIL = 'email'
 
 AUTHENTICATION_BACKENDS = (
     'social_core.backends.facebook.FacebookOAuth2',
